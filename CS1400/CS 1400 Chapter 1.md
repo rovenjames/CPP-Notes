@@ -1,5 +1,4 @@
 ## Table of Contents
-
 - [Table of Contents](#table-of-contents)
 - [Computer Systems: Hardware](#computer-systems-hardware)
     - [ Computer Block Diagram ](#-computer-block-diagram-)
