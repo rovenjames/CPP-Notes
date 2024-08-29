@@ -1,3 +1,16 @@
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Computer Systems: Hardware](#computer-systems-hardware)
+    - [ Computer Block Diagram ](#-computer-block-diagram-)
+- [Computer Systems: Hardware Central Processing Unit](#computer-systems-hardware-central-processing-unit)
+    - [ CPU Diagram ](#-cpu-diagram-)
+- [Hardware Main Memory](#hardware-main-memory)
+- [Hardware Secondary Storage Devices](#hardware-secondary-storage-devices)
+- [Hardware Input Devices](#hardware-input-devices)
+- [Hardware Output Devices](#hardware-output-devices)
+- [Computer Systems: Software](#computer-systems-software)
+- [Programming Languages](#programming-languages)
 
 
 ## Computer Systems: Hardware
