@@ -14,6 +14,7 @@
 
 ## Computer Systems: Hardware Central Processing Unit
 
+#### <u> CPU Diagram </u>
 <img src="https://lucid.app/publicSegments/view/2b928257-aa68-4546-9c50-2c56b210912d/image.png" width="700">
 
 - The CPU performs the **fetch, decode, execute cycle** in order to process program information
@@ -22,7 +23,7 @@
 > Signal is then routed to the apprporiate component of the computer, causing it to perform an operation.
 
 
-## Hardware Central Main Memory
+## Hardware Main Memory
 - Commonly known as **random-access memory \(RAM\)**
 - RAM contains:
     - currently running programs
@@ -38,8 +39,8 @@
 >
 >Memory is moved over to **second-hand memory** which is then translated to the main memory when computer is turned on\.
 
-Main memory can be visulaized as a column or row of cells
-A section of four or more bytes is called a *word*
+Main memory can be visulaized as a column or row of cells.\
+A section of two or four bytes is called a **word**
 
 ## Hardware Secondary Storage Devices
 - Secondary storage devices are capable of storing information for longer periods of time **\(non-volatile\)**
