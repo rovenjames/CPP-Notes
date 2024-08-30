@@ -1,142 +1,331 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Chapter 1</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
-</html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Table of Contents</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
 
-<h2 id="tableofcontents">Table of Contents</h2>
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 16px;
+                line-height: 1.6;
+                padding: 0px 200px 0px 200px;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+code {
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    border-left-width: 3px;
+    padding: 10px;
+    color: #828282;
+    border-left: 4px solid #a0a0a0;
+    padding-left: 14px;
+    letter-spacing: -1px;
+    background-color: #f1f1f1 !important;
+    font-family: 'Consolas', monospace;
+}
+
+blockquote {
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    border-left-width: 3px;
+    padding: 0px 1em;
+    color: #828282;
+    border-left: 4px solid #a0a0a0;
+    padding-left: 14px;
+    letter-spacing: -1px;
+    font-style: italic;
+    background-color: #f1f1f1;
+}
+
+blockquote * {
+    font-style: normal !important;
+    letter-spacing: 0;
+    color: #111 !important;
+}
+
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
-<li><a href="#computer-systems-hardware">Computer Systems: Hardware</a><ul>
-<li><a href="#-computer-block-diagram-"> Computer Block Diagram </a></li></ul></li>
-<li><a href="#computer-systems-hardware-central-processing-unit">Computer Systems: Hardware Central Processing Unit</a><ul>
-<li><a href="#-cpu-diagram-"> CPU Diagram </a></li></ul></li>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#computer-systems-hardware">Computer Systems: Hardware</a>
+<ul>
+<li><a href="#-computer-block-diagram-"> Computer Block Diagram </a></li>
+</ul>
+</li>
+<li><a href="#computer-systems-hardware-central-processing-unit">Computer Systems: Hardware Central Processing Unit</a>
+<ul>
+<li><a href="#-cpu-diagram-"> CPU Diagram </a></li>
+</ul>
+</li>
 <li><a href="#hardware-main-memory">Hardware Main Memory</a></li>
 <li><a href="#hardware-secondary-storage-devices">Hardware Secondary Storage Devices</a></li>
 <li><a href="#hardware-input-devices">Hardware Input Devices</a></li>
 <li><a href="#hardware-output-devices">Hardware Output Devices</a></li>
 <li><a href="#computer-systems-software">Computer Systems: Software</a></li>
 <li><a href="#programming-languages">Programming Languages</a></li>
+<li><a href="#programming-languages-common-language-elemnents">Programming Languages: Common Language Elemnents</a></li>
+<li><a href="#java-sample-program">Java Sample Program</a>
+<ul>
+<li><a href="#key-words">Key Words</a></li>
+<li><a href="#punctuation">Punctuation</a></li>
+<li><a href="#lines-vs-statements">Lines vs. Statements</a></li>
+<li><a href="#variables">Variables</a></li>
+<li><a href="#jvm">JVM</a></li>
 </ul>
-<h2 id="computersystemshardware">Computer Systems: Hardware</h2>
+</li>
+<li><a href="#c-sample-program">C++ Sample Program</a></li>
+<li><a href="#compiler-and-the-jvm">Compiler and the JVM</a></li>
+</ul>
+<h2 id="computer-systems-hardware">Computer Systems: Hardware</h2>
 <ul>
 <li>Computer hardware components are the physical pieces of the computer</li>
-<li>The major hardware components of a computer are:<ul>
+<li>The major hardware components of a computer are:
+<ul>
 <li>The central processing unit (CPU)</li>
 <li>Main memory</li>
 <li>Secondary storage devices</li>
-<li>Input and output devices</li></ul></li>
+<li>Input and output devices</li>
 </ul>
-<h4 id="ucomputerblockdiagramu"><u> Computer Block Diagram </u></h4>
-<p><img src="https://lucid.app/publicSegments/view/668c4f02-3ba6-48cf-9f80-c5d1b9712f07/image.png" alt="Computer Block Diagram" /></p>
-<h2 id="computersystemshardwarecentralprocessingunit">Computer Systems: Hardware Central Processing Unit</h2>
-<h4 id="ucpudiagramu"><u> CPU Diagram </u></h4>
-<p><img src="https://lucid.app/publicSegments/view/2b928257-aa68-4546-9c50-2c56b210912d/image.png" width="700"></p>
+</li>
+</ul>
+<h4 id="-computer-block-diagram-"><u> Computer Block Diagram </u></h4>
+<p><img src="https://lucid.app/publicSegments/view/668c4f02-3ba6-48cf-9f80-c5d1b9712f07/image.png" alt="Computer Block Diagram"></p>
+<h2 id="computer-systems-hardware-central-processing-unit">Computer Systems: Hardware Central Processing Unit</h2>
+<h4 id="-cpu-diagram-"><u> CPU Diagram </u></h4>
+<img src="https://lucid.app/publicSegments/view/2b928257-aa68-4546-9c50-2c56b210912d/image.png" width="700">
 <ul>
 <li>The CPU performs the <strong>fetch, decode, execute cycle</strong> in order to process program information</li>
 </ul>
 <blockquote>
-  <p>CPU will fetch the next instruction in the sequence of program instructions from the main memory.
-  Instruction is then decoded (originally encoded in the form of a number), generating an electronic signal.
-  Signal is then routed to the apprporiate component of the computer, causing it to perform an operation.</p>
+<p>CPU will fetch the next instruction in the sequence of program instructions from the main memory.<br>
+Instruction is then decoded (originally encoded in the form of a number), generating an electronic signal.<br>
+Signal is then routed to the apprporiate component of the computer, causing it to perform an operation.\</p>
 </blockquote>
-<h2 id="hardwaremainmemory">Hardware Main Memory</h2>
+<h2 id="hardware-main-memory">Hardware Main Memory</h2>
 <ul>
 <li>Commonly known as <strong>random-access memory (RAM)</strong></li>
-<li>RAM contains:<ul>
+<li>RAM contains:
+<ul>
 <li>currently running programs</li>
-<li>data used by those programs</li></ul></li>
+<li>data used by those programs</li>
+</ul>
+</li>
 <li>RAM is divided into units called bytes</li>
 <li>A byte consists of eight bits that may be either on or off</li>
-<li>Bit is either on or off<ul>
+<li>Bit is either on or off
+<ul>
 <li>1 = ON</li>
-<li>0 = OFF</li></ul></li>
+<li>0 = OFF</li>
+</ul>
+</li>
 <li>Bits form a pattern that represents a character or number</li>
 <li>Each byte is assigned an address, unique to each byte</li>
 </ul>
 <blockquote>
-  <p>RAM is <strong>volatile</strong> which means that when the computer is turned off, the contents of RAM are erased.</p>
-  <p>Memory is moved over to <strong>second-hand memory</strong> which is then translated to the main memory when computer is turned on.</p>
+<p>RAM is <strong>volatile</strong> which means that when the computer is turned off, the contents of RAM are erased.</p>
+<p>Memory is moved over to <strong>second-hand memory</strong> which is then translated to the main memory when computer is turned on.</p>
 </blockquote>
-<p>Main memory can be visulaized as a column or row of cells.\
+<p>Main memory can be visulaized as a column or row of cells.<br>
 A section of two or four bytes is called a <strong>word</strong></p>
-<h2 id="hardwaresecondarystoragedevices">Hardware Secondary Storage Devices</h2>
+<h2 id="hardware-secondary-storage-devices">Hardware Secondary Storage Devices</h2>
 <ul>
 <li>Secondary storage devices are capable of storing information for longer periods of time <strong>(non-volatile)</strong></li>
-<li>Common Secondary Storage Devices:<ul>
+<li>Common Secondary Storage Devices:
+<ul>
 <li>Disk drive</li>
 <li>External drive</li>
 <li>CD drive</li>
 <li>Solid state drive</li>
 <li>USB drive</li>
-<li>DVD drive</li></ul></li>
+<li>DVD drive</li>
 </ul>
-<h2 id="hardwareinputdevices">Hardware Input Devices</h2>
+</li>
+</ul>
+<h2 id="hardware-input-devices">Hardware Input Devices</h2>
 <ul>
 <li>Input is any data the compuer collects from the outside world</li>
 <li>That data comes from devices known as input devices</li>
-<li>Common input devices<ul>
+<li>Common input devices
+<ul>
 <li>Keyboard</li>
 <li>Mouse</li>
 <li>Scanner</li>
-<li>Digital camera</li></ul></li>
+<li>Digital camera</li>
 </ul>
-<h2 id="hardwareoutputdevices">Hardware Output Devices</h2>
+</li>
+</ul>
+<h2 id="hardware-output-devices">Hardware Output Devices</h2>
 <ul>
 <li>Output is any datat the computer sends to the outside world</li>
-<li>That data is displated </li>
+<li>That data is displated</li>
 </ul>
-<h2 id="computersystemssoftware">Computer Systems: Software</h2>
+<h2 id="computer-systems-software">Computer Systems: Software</h2>
 <ul>
 <li>Software refers to the programs that ru on a computer.</li>
-<li>There are two classifications of software:<ul>
+<li>There are two classifications of software:
+<ul>
 <li><strong>Operating Systems</strong></li>
-<li><strong>Application Software</strong></li></ul></li>
+<li><strong>Application Software</strong></li>
+</ul>
+</li>
 </ul>
 <blockquote>
-  <h3 id="computersystemssoftwareoperatingsystems">Computer Systems: Software Operating Systems</h3>
-  <blockquote>
-    <p>An operating system is a set of programs that manages the computer's hardware devices and controls their processes</p>
-    <p>Most all modern opearating systems are multitasking</p>
-    <p>A multitasking operating system is capable of running multiple programs a t once</p>
-    <ul>
-    <li>Unix</li>
-    <li>Linux</li>
-    <li>MacOS</li>
-    <li>Windows</li>
-    </ul>
-  </blockquote>
-    <h3 id="computersystemssoftwareapplicationsoftware">Computer Systems: Software Application Software</h3>
-  <blockquote>
-    <p>Applciation software refers to programs that make the computer useful to the user
-    Application software provides a more specialized type of environment for the user to work in.
-    Common application software:</p>
-    <ul>
-    <li>Spreadsheets</li>
-    <li>Word processors</li>
-    <li>Accounting software</li>
-    <li>Tax software</li>
-    <li>Games</li>
-    </ul>
-  </blockquote>
+<h3 id="computer-systems-software-operating-systems">Computer Systems: Software Operating Systems</h3>
+<blockquote>
+<p>An operating system is a set of programs that manages the computer's hardware devices and controls their processes</p>
+<p>Most all modern opearating systems are multitasking</p>
+<p>A multitasking operating system is capable of running multiple programs a t once</p>
+<ul>
+<li>Unix</li>
+<li>Linux</li>
+<li>MacOS</li>
+<li>Windows</li>
+</ul>
 </blockquote>
-<h2 id="programminglanguages">Programming Languages</h2>
+<h3 id="computer-systems-software-application-software">Computer Systems: Software Application Software</h3>
+<blockquote>
+<p>Applciation software refers to programs that make the computer useful to the user
+Application software provides a more specialized type of environment for the user to work in.
+Common application software:</p>
+<ul>
+<li>Spreadsheets</li>
+<li>Word processors</li>
+<li>Accounting software</li>
+<li>Tax software</li>
+<li>Games</li>
+</ul>
+</blockquote>
+</blockquote>
+<h2 id="programming-languages">Programming Languages</h2>
 <ul>
 <li>A program is a set of instructions a computer follows in order to perform a task</li>
 <li>A programming langauge is a special langauge used to write computer programs</li>
@@ -146,8 +335,147 @@ A section of two or four bytes is called a <strong>word</strong></p>
 <li>The steps in an algorithim are performed sequentially</li>
 <li>A computer needs the algorithim to be written in machine language</li>
 <li>Machine langauge is written using <strong>binary numbers</strong></li>
-<li>Each CPU has its own machine language<ul>
+<li>Binary numbers are encoded as a machine language</li>
+<li>Each CPU has its own machine language
+<ul>
 <li>Motorola processors</li>
 <li>Intel x86 processors</li>
-<li>ARM processors</li></ul></li>
+<li>ARM processors</li>
 </ul>
+</li>
+<li>Before programming languages were developed, programmers had to program using machine language</li>
+<li>Following simple progeamming languages, high level programming languages were made which weren't processor dependent</li>
+<li>Common Programming Languages:
+<ul>
+<li>Java</li>
+<li>BASIC</li>
+<li>Go</li>
+<li>Rust</li>
+<li>C</li>
+<li>C++</li>
+<li>C#</li>
+<li>Visual Basic</li>
+<li>Python</li>
+<li>Ruby</li>
+<li>JavaScript</li>
+</ul>
+</li>
+</ul>
+<h2 id="programming-languages-common-language-elemnents">Programming Languages: Common Language Elemnents</h2>
+<ul>
+<li>Common conepts seen in virtually all programming languages:
+<ul>
+<li>Key words</li>
+<li>Operators</li>
+<li>Punctuation</li>
+<li>Programmer-defined identifiers</li>
+<li>Strict syntatic rules</li>
+</ul>
+</li>
+</ul>
+<h2 id="java-sample-program">Java Sample Program</h2>
+<pre><code class="language-java">{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span>
+    {
+        <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span>
+        {
+            <span class="hljs-type">String</span> <span class="hljs-variable">message</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;Hello World&quot;</span>;
+            System.out.println(message);
+        }
+    }
+}
+</code></pre>
+<ul>
+<li>Messages are called &quot;statements&quot; in Java.</li>
+<li>Most important statement: <strong>&quot;public static void main(String[] args)&quot;</strong></li>
+</ul>
+<h3 id="key-words"><u>Key Words</u></h3>
+<ul>
+<li>Key words in the sample program are:
+<ul>
+<li>public</li>
+<li>class</li>
+<li>static</li>
+<li>void</li>
+</ul>
+</li>
+<li>Key words are lower case (Java is case sensitive)</li>
+<li>Key words cannot be used as a programmer-defined identifier</li>
+</ul>
+<h3 id="punctuation"><u>Punctuation</u></h3>
+<ul>
+<li>Part of learning java is to learn where to properly use the punction.</li>
+</ul>
+<h3 id="lines-vs-statements"><u>Lines vs. Statements</u></h3>
+<ul>
+<li>There are differences between liens and statements when discussing source code.</li>
+</ul>
+<pre><code class="language-java">{
+    System.out.println();
+}
+</code></pre>
+<ul>
+<li>This is a statement as it ends with a semi colon.</li>
+</ul>
+<h3 id="variables"><u>Variables</u></h3>
+<ul>
+<li>Data in a Kava program is stored in memory</li>
+<li>Variable names reperesent a location in memory</li>
+<li>Variabales in Java are sometimes called fields</li>
+<li>Variables are created by the programmer, assigning it a programmer-defined identifier</li>
+</ul>
+<pre><code class="language-java">{
+    example: <span class="hljs-type">int</span> <span class="hljs-variable">hours</span> <span class="hljs-operator">=</span> <span class="hljs-number">40</span>;
+}
+</code></pre>
+<ul>
+<li>Here, the variable &quot;hours&quot; is created as an integer, assigned the value of 40.</li>
+</ul>
+<h3 id="jvm"><u>JVM</u></h3>
+<ul>
+<li>The Java Virtual Machine actually decides where the value will be placed in memory</li>
+<li>(insert JVM chart)</li>
+</ul>
+<h2 id="c-sample-program">C++ Sample Program</h2>
+<pre><code class="language-c++">{
+    <span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span>
+    <span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;string&gt;</span></span>
+
+    <span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+    </span>{
+        string message = <span class="hljs-string">&quot;Hello World&quot;</span>;
+        cout &lt;&lt;message&gt;&gt; endl;
+    }
+}
+</code></pre>
+<ul>
+<li>Does the same thing as what the <a href="#java-sample-program">Java Sample Program</a> is doing, except with a different syntax.</li>
+<li>Instead of &quot;statements,&quot; messages are called &quot;commands.&quot;</li>
+</ul>
+<h2 id="compiler-and-the-jvm">Compiler and the JVM</h2>
+<ul>
+<li>Java programming statements written by a programmer are known as <strong>soruce code</strong></li>
+<li>A text editor is used to edit and save a Java source code file</li>
+<li>Source code files have a <strong>.java</strong> extension
+<br></br></li>
+<li>A compiler is a program that translates source code into an executable form</li>
+<li>Compilers are run using a source code file as input</li>
+<li>Syntax errors that may be in the program will be discovered during compilation</li>
+<li>Syntax errors are mistakes that the programmer has made that violate the rules of the programming language</li>
+<li>Compiler creates another file that holds the translated instructions</li>
+<li>Most compilers translate source code into executable files contatining machine code
+<br></br></li>
+<li>The Java compiler translates a Java source file into a file that contains <strong>byte code instructions</strong></li>
+<li>Byte code instructions are the machine language of the JVM, it cannot be directly executed by the CPU</li>
+<li>Byte code files end with the <strong>.classs</strong> extension
+<br></br></li>
+<li>The JVM emulates a micro-processor</li>
+<li>JVM executes instructions as read</li>
+<li>The JVM is often called an interpreter</li>
+<li>Java is often referred to as an interpreted language</li>
+</ul>
+
+            
+            
+        </body>
+        </html>
