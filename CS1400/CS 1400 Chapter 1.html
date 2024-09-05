@@ -2,178 +2,28 @@
         <html>
         <head>
             <meta charset="UTF-8">
-            <title>Table of Contents</title>
-            <style>
-/* From extension vscode.github */
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-.vscode-dark img[src$=\#gh-light-mode-only],
-.vscode-light img[src$=\#gh-dark-mode-only],
-.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
-.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
-	display: none;
-}
-
-</style>
-            
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
-<style>
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
-                font-size: 16px;
-                line-height: 1.6;
-                padding: 0px 200px 0px 200px;
+            <title>Intro to Hardware and Java</title>
+            <link rel="stylesheet" href="../CSS Styles/markdown.css">
+            <link rel="stylesheet" href="../CSS Styles/highlight.css">
+        </head>
+        <style>
+            .markdown-body {
+                box-sizing: border-box;
+                min-width: 200px;
+                max-width: 980px;
+                margin: 0 auto;
+                padding: 45px;
+            }
+        
+            @media (max-width: 767px) {
+                .markdown-body {
+                    padding: 15px;
+                }
             }
         </style>
-        <style>
-.task-list-item {
-    list-style-type: none;
-}
-
-.task-list-item-checkbox {
-    margin-left: -20px;
-    vertical-align: middle;
-    pointer-events: none;
-}
-</style>
-<style>
-code {
-    margin-left: 30px;
-    margin-top: 0px;
-    margin-bottom: 16px;
-    border-left-width: 3px;
-    padding: 10px;
-    color: #828282;
-    border-left: 4px solid #a0a0a0;
-    padding-left: 14px;
-    letter-spacing: -1px;
-    background-color: #f1f1f1 !important;
-    font-family: 'Consolas', monospace;
-}
-
-blockquote {
-    margin-left: 30px;
-    margin-top: 0px;
-    margin-bottom: 16px;
-    border-left-width: 3px;
-    padding: 0px 1em;
-    color: #828282;
-    border-left: 4px solid #a0a0a0;
-    padding-left: 14px;
-    letter-spacing: -1px;
-    font-style: italic;
-    background-color: #f1f1f1;
-}
-
-blockquote * {
-    font-style: normal !important;
-    letter-spacing: 0;
-    color: #111 !important;
-}
-
-:root {
-  --color-note: #0969da;
-  --color-tip: #1a7f37;
-  --color-warning: #9a6700;
-  --color-severe: #bc4c00;
-  --color-caution: #d1242f;
-  --color-important: #8250df;
-}
-
-</style>
-<style>
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-note: #2f81f7;
-    --color-tip: #3fb950;
-    --color-warning: #d29922;
-    --color-severe: #db6d28;
-    --color-caution: #f85149;
-    --color-important: #a371f7;
-  }
-}
-
-</style>
-<style>
-.markdown-alert {
-  padding: 0.5rem 1rem;
-  margin-bottom: 16px;
-  color: inherit;
-  border-left: .25em solid #888;
-}
-
-.markdown-alert>:first-child {
-  margin-top: 0
-}
-
-.markdown-alert>:last-child {
-  margin-bottom: 0
-}
-
-.markdown-alert .markdown-alert-title {
-  display: flex;
-  font-weight: 500;
-  align-items: center;
-  line-height: 1
-}
-
-.markdown-alert .markdown-alert-title .octicon {
-  margin-right: 0.5rem;
-  display: inline-block;
-  overflow: visible !important;
-  vertical-align: text-bottom;
-  fill: currentColor;
-}
-
-.markdown-alert.markdown-alert-note {
-  border-left-color: var(--color-note);
-}
-
-.markdown-alert.markdown-alert-note .markdown-alert-title {
-  color: var(--color-note);
-}
-
-.markdown-alert.markdown-alert-important {
-  border-left-color: var(--color-important);
-}
-
-.markdown-alert.markdown-alert-important .markdown-alert-title {
-  color: var(--color-important);
-}
-
-.markdown-alert.markdown-alert-warning {
-  border-left-color: var(--color-warning);
-}
-
-.markdown-alert.markdown-alert-warning .markdown-alert-title {
-  color: var(--color-warning);
-}
-
-.markdown-alert.markdown-alert-tip {
-  border-left-color: var(--color-tip);
-}
-
-.markdown-alert.markdown-alert-tip .markdown-alert-title {
-  color: var(--color-tip);
-}
-
-.markdown-alert.markdown-alert-caution {
-  border-left-color: var(--color-caution);
-}
-
-.markdown-alert.markdown-alert-caution .markdown-alert-title {
-  color: var(--color-caution);
-}
-
-</style>
-        
-        </head>
-        <body class="vscode-body vscode-light">
-            <h2 id="table-of-contents">Table of Contents</h2>
+<body class="markdown-body">
+<h1>Intro to Hardware and Java</h1>
+<h2 id="table-of-contents">Table of Contents</h2>
 <ul>
 <li><a href="#table-of-contents">Table of Contents</a></li>
 <li><a href="#computer-systems-hardware">Computer Systems: Hardware</a>
@@ -228,7 +78,7 @@ blockquote * {
 <blockquote>
 <p>CPU will fetch the next instruction in the sequence of program instructions from the main memory.<br>
 Instruction is then decoded (originally encoded in the form of a number), generating an electronic signal.<br>
-Signal is then routed to the apprporiate component of the computer, causing it to perform an operation.\</p>
+Signal is then routed to the apprporiate component of the computer, causing it to perform an operation.</p>
 </blockquote>
 <h2 id="hardware-main-memory">Hardware Main Memory</h2>
 <ul>
@@ -473,6 +323,72 @@ Common application software:</p>
 <li>JVM executes instructions as read</li>
 <li>The JVM is often called an interpreter</li>
 <li>Java is often referred to as an interpreted language</li>
+</ul>
+<h2 id="single-command-compliation-and-execution">Single Command Compliation and Execution</h2>
+<ul>
+<li>If you are using Java 11 or later, you can use the &quot;java&quot; command to compile ad execute a single-file program</li>
+<li>Example:
+<ul>
+<li>To compile a java source code file named &quot;Payroll.java&quot; and immediately execute it with:<br>&quot;java Payroll.java&quot;</li>
+</ul>
+</li>
+</ul>
+<h2 id="the-programming-proccess">The Programming Proccess</h2>
+<ol>
+<li>Clearly degine what the program is to do</li>
+<li>Visualize the program running on the computer</li>
+<li>Use design tools to create a model of the program</li>
+<li>Check the model for logical errors</li>
+</ol>
+<h2 id="software-engineering">Software Engineering</h2>
+<ul>
+<li>Encompasses the whole process of crafting computer software.</li>
+<li>Software engineers perform several tasks in the development of complex software projects.
+<ul>
+<li>designing</li>
+<li>writing</li>
+<li>testing</li>
+<li>debugging</li>
+<li>documenting</li>
+<li>modifying</li>
+<li>maintaining</li>
+</ul>
+</li>
+<li>Sofrware engineers develop:
+<ul>
+<li>program specifications</li>
+<li>diagrams of screen output</li>
+<li>diagrams representing the program components and the flow of data</li>
+<li>pseudocode</li>
+<li>examples of expected input and desired output</li>
+</ul>
+</li>
+<li>Software engineers alos us especial software designed for testing programs</li>
+<li>Mostt commerical software applications are large and complex</li>
+<li>Usually a team of programmers, not a single individual develops them</li>
+<li>Program requirements are thoroughly analyzed and divided into subtasks that are handled by
+<ul>
+<li>individual teams</li>
+<li>individuals within a team</li>
+</ul>
+</li>
+</ul>
+<h2 id="procedural-programming-finish">Procedural Programming (finish)</h2>
+<ul>
+<li>Older programming languages were procedural</li>
+<li>A <strong>procedure</strong> is a set of programming language statements that, together, perform a specific task</li>
+<li>Procedures typically operate on data items that are separate from the procedures</li>
+<li>In procedural programmoing, procedures are developed to operate on the program's data</li>
+<li>Data in the program tends to be global to the entire program</li>
+<li>Data formats might change and thus, the procedure</li>
+</ul>
+<h2 id="object-oriented-programming-finish">Object-Oriented Programming (finish)</h2>
+<ul>
+<li>Object-oriented programming is centered on creating objects rather than procedures</li>
+<li>Objects are a melding of data and procedures that manipulate that data</li>
+<li>Data in an object are known as <strong>attributes</strong>.</li>
+<li>Procedures in an object are known as <strong>methods</strong>.</li>
+<li>Object-oriented</li>
 </ul>
 
             

@@ -1,3 +1,5 @@
+<link href="http://github.com/yrgoldteeth/darkdowncss/raw/master/darkdown.css" rel="stylesheet">
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Computer Systems: Hardware](#computer-systems-hardware)
@@ -235,3 +237,52 @@ A section of two or four bytes is called a **word**
 - JVM executes instructions as read
 - The JVM is often called an interpreter
 - Java is often referred to as an interpreted language
+
+## Single Command Compliation and Execution
+- If you are using Java 11 or later, you can use the "java" command to compile ad execute a single-file program
+- Example:
+  - To compile a java source code file named "Payroll.java" and immediately execute it with:<br>"java Payroll.java"
+
+## The Programming Proccess
+1. Clearly degine what the program is to do
+2. Visualize the program running on the computer
+3. Use design tools to create a model of the program
+4. Check the model for logical errors
+
+## Software Engineering
+- Encompasses the whole process of crafting computer software.
+- Software engineers perform several tasks in the development of complex software projects.
+  - designing
+  - writing
+  - testing
+  - debugging
+  - documenting
+  - modifying
+  - maintaining
+- Sofrware engineers develop:
+  - program specifications
+  - diagrams of screen output
+  - diagrams representing the program components and the flow of data
+  - pseudocode
+  - examples of expected input and desired output
+- Software engineers alos us especial software designed for testing programs
+- Mostt commerical software applications are large and complex
+- Usually a team of programmers, not a single individual develops them
+- Program requirements are thoroughly analyzed and divided into subtasks that are handled by
+  - individual teams
+  - individuals within a team
+
+## Procedural Programming (finish)
+- Older programming languages were procedural
+- A **procedure** is a set of programming language statements that, together, perform a specific task
+- Procedures typically operate on data items that are separate from the procedures
+- In procedural programmoing, procedures are developed to operate on the program's data
+- Data in the program tends to be global to the entire program
+- Data formats might change and thus, the procedure
+
+## Object-Oriented Programming (finish)
+- Object-oriented programming is centered on creating objects rather than procedures
+- Objects are a melding of data and procedures that manipulate that data
+- Data in an object are known as **attributes**.
+- Procedures in an object are known as **methods**.
+- Object-oriented
